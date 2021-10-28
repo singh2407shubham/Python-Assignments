@@ -75,13 +75,10 @@ def main():
         print("Cluter 1 formed: {}".format(cluster1))
         print("Cluter 2 formed: {}".format(cluster2))
 
-   
         meanOfCluster1 = meanOfPoints(cluster1)
         meanOfCluster2 = meanOfPoints(cluster2)
         print("Mean of points in cluster 1: ", meanOfCluster1)
         print("Mean of points in cluster 2: ", meanOfCluster2)
-
-     
         
         print("re-intialising clusters with new means......")
         centroid1 = meanOfCluster1
